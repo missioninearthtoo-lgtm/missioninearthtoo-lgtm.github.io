@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>yt-watch Privacy Policy</title>
+<title>Personal Tools Privacy Policy</title>
 <style>
 /* layout: single readable column, plain policy document */
 :root{
@@ -30,30 +30,36 @@ code{font-size:.9em}
 <body>
 <main>
   <header>
-    <div class="eyebrow">yt-watch</div>
+    <div class="eyebrow">Personal tools</div>
     <h1>プライバシーポリシー / Privacy Policy</h1>
-    <p class="meta">制定日 2026-11-05 ・ 運営: 個人</p>
+    <p class="meta">制定日 2026-11-05 ・ 改定日 2026-11-06 ・ 運営: 個人</p>
   </header>
 
   <section>
-    <h2>このアプリについて</h2>
-    <p>yt-watch は、運営者本人が自分のパソコンだけで使う個人用ツールです。運営者自身が登録しているYouTubeチャンネルの一覧と動画の一覧を読み、公開されている字幕を本人のパソコンに保存します。一般の方への提供はしていません。</p>
-    <p class="en">yt-watch is a personal tool used only by its owner on the owner's own computer. It is not offered to anyone else.</p>
+    <h2>対象のアプリ</h2>
+    <p>このページは、運営者本人が自分のパソコンだけで使う、次の個人用ツールに共通のポリシーです。一般の方への提供はしていません。</p>
+    <ul>
+      <li><strong>yt-watch</strong>: 登録しているYouTubeチャンネルの動画一覧を読み、公開されている字幕を保存する</li>
+      <li><strong>kuro-digest</strong>: 本人のGmailを読んで仕分けし、本人あての通知や、本人が確認した返信を送る</li>
+      <li><strong>claude-calendar</strong>: 本人のGoogleカレンダーの予定を読み、本人の指示で予定を登録する</li>
+    </ul>
+    <p class="en">This policy covers personal tools used only by their owner on the owner's own computer: yt-watch, kuro-digest and claude-calendar. They are not offered to anyone else.</p>
   </section>
 
   <section>
-    <h2>使うデータ</h2>
+    <h2>使う権限</h2>
     <ul>
-      <li>権限は <code>youtube.readonly</code>(YouTubeアカウントの表示)だけです。投稿・削除・変更はしません。</li>
-      <li>読むのは、登録チャンネルの一覧と、そのチャンネルの動画一覧(タイトル・公開日)です。</li>
+      <li>yt-watch: <code>youtube.readonly</code>(表示のみ。投稿・削除・変更はしない)</li>
+      <li>kuro-digest: <code>gmail.modify</code>・<code>gmail.send</code>(本人のメールの読み取り・ラベル付け・送信)</li>
+      <li>claude-calendar: <code>calendar</code>(本人の予定の読み取りと登録)</li>
     </ul>
-    <p class="en">The only scope is youtube.readonly. The app reads the owner's subscription list and the upload lists of those channels. It never posts, deletes or changes anything.</p>
+    <p class="en">Scopes: youtube.readonly (yt-watch); gmail.modify and gmail.send (kuro-digest); calendar (claude-calendar). Each tool only touches the owner's own account.</p>
   </section>
 
   <section>
     <h2>保存と共有</h2>
-    <p>読んだデータと認証情報は、運営者本人のパソコンの中にだけ保存します。第三者への提供・販売・広告利用はしません。外部のサーバーにも送りません。</p>
-    <p class="en">Data and credentials are stored only on the owner's computer. Nothing is shared, sold, used for ads, or sent to any other server.</p>
+    <p>読んだデータと認証情報は、運営者本人のパソコンの中に保存します。第三者への提供・販売・広告利用はしません。メールや予定の内容は、本人の指示があったときに限り、本人が契約しているAIアシスタント(Anthropic社のClaude)に読ませて、仕分けや下書きに使うことがあります。それ以外の外部サーバーには送りません。</p>
+    <p class="en">Data and credentials are stored on the owner's computer. Nothing is shared, sold or used for ads. Only at the owner's request, email or calendar content may be processed by the owner's own AI assistant subscription (Claude by Anthropic) to sort messages or draft text. It is not sent anywhere else.</p>
   </section>
 
   <section>
